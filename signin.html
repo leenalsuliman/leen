@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Department</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <button id="toggle-sidebar">☰</button>
+            <h1>Business Department</h1>
+            <img src="logo.jpeg" alt="University Logo" class="logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="admissions.html">Admission</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <aside class="sidebar">
+            <ul>
+                <li><a href="announcements.html">Announcements</a></li>
+                <li><a href="grades.html">Grades</a></li>
+                <li><a href="signin.html">Sign In</a></li>
+            </ul>
+        </aside>
+        <main>
+            <section class="signin-form">
+                <h2>Sign In</h2>
+                <form id="signinForm">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+                    
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                    
+                    <button type="submit">Sign In</button>
+                </form>
+            </section>
+        </main>
+    </div>
+    <script src="script.js..js" defer></script>
+</body>
+</html>
